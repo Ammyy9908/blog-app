@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image:  ammyy9908/blog-app-beta:v2
+        image:  ammyy9908/blog-app-beta:v3
         ports:
         - containerPort: 3000
         env:
