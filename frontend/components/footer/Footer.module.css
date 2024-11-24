@@ -1,0 +1,121 @@
+.footer {
+  background-color: #1A1A1A;
+  color: white;
+  padding: 60px 0 40px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.locationInfo {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.address, .customerService, .hours {
+  color: #FFFFFF;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.bottomSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0;
+  padding: 20px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.socialLinks {
+  display: flex;
+  gap: 20px;
+}
+
+.socialIcon {
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.socialIcon:hover {
+  opacity: 1;
+}
+
+.deliverySection {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.deliveryText {
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.storeButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.storeButton {
+  transition: opacity 0.2s;
+}
+
+.storeButton:hover {
+  opacity: 0.8;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #B3B3B3;
+  font-size: 14px;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.links a {
+  color: #B3B3B3;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.links a:hover {
+  color: #FFFFFF;
+}
+
+.divider {
+  color: #B3B3B3;
+}
+
+@media (max-width: 768px) {
+  .bottomSection {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .copyright {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .deliverySection {
+    flex-direction: column;
+  }
+} 
