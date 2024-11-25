@@ -92,4 +92,5 @@ metadata:
 type: Opaque
 data:
   mongo-root-username: YWRtaW4=     # 'admin' in base64
-  mongo-root-password: cGFzc3dvcmQ=  # 'password' in base64 
+  mongo-root-password: cGFzc3dvcmQ=  # 'password' in base64
+  mongodb-uri: bW9uZ29kYjovL2FkbWluOnBhc3N3b3JkQG1vbmdvZGItc2VydmljZToyNzAxNy9ibG9nLWFwcD9hdXRoU291cmNlPWFkbWlu  # mongodb://admin:password@mongodb-service:27017/blog-app?authSource=admin in base64 
