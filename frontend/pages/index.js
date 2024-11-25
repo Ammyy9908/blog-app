@@ -22,7 +22,7 @@ export default function Home() {
     <Header/>
     <section className="px-32 py-16 flex flex-col items-center gap-16 bg-[#FCF7EF]">
      <div className="text-center"> 
-      <h1 className="font-bold text-7xl">Our Blog</h1>
+      <h1 className="font-bold text-7xl">Our New Blog</h1>
      <p>Get the latest updates and deeper coffee experience from IMAJI Coffee</p></div>
      <div className="flex items-start gap-4 flex-col">
       <img src="/thumnail.png" alt="thumbnail"/>
