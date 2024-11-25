@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: ammyy9908/blog-api-beta:v3
+        image: ammyy9908/blog-api-beta:v4
         ports:
         - containerPort: 5000
         env:
